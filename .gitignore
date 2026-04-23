@@ -1,0 +1,16 @@
+# Book binaries belong in ~/git/bibliography/, not here.
+*.pdf
+*.epub
+*.mobi
+*.djvu
+*.zip
+
+# PNG scans of the source edition — gitignored because they are regeneratable
+# from the source PDF in ~/git/bibliography/en/caraka/ and would otherwise
+# be ~1 GB of committed binaries.
+.ocr_pages/
+
+# Temporary/work artifacts
+tmp/
+scratch/
+.DS_Store
