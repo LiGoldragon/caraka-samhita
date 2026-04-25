@@ -1,13 +1,15 @@
 # Conversion conventions
 
-How `pages/NNN.txt` plain-text scans become `book/NN-sthana/MM-name.md` chapters.
+How `pages/NNN.txt` plain-text scans become `sharma-2014/NN-sthana/MM-name.md` chapters.
+
+This conversion targets the **P. V. Sharma 2014 Chaukhambha Orientalia edition** specifically. Future editions of the Caraka Saṃhitā in this repo will live under their own sibling directories (e.g., `sharma-dash-1976/`, `nirnaya-sagar-1922/`) with their own conventions.
 
 ## Source
 
 - Input: `pages/001.txt` … `pages/582.txt` — one file per page of P. V. Sharma's *Caraka Saṃhitā* Vol I (Chaukhambha Orientalia, 2014).
 - Pages 1-43 are front matter (title, preface, contents). Skip.
 - Pages 44-289 = Sūtrasthāna (30 chapters). Pages 290 = section title; 291-338 = Nidāna (8 ch). 339 = title; 340-433 = Vimāna (8 ch). 434 = title; 435-526 = Śārīra (8 ch). 527 blank. 528 = title; 529-566 = Indriya (12 ch). 568-582 = back-matter index.
-- Output: one `.md` per chapter inside the appropriate `book/NN-sthana/` directory.
+- Output: one `.md` per chapter inside the appropriate `sharma-2014/NN-sthana/` directory.
 
 ## Chapter boundary detection
 
@@ -35,10 +37,10 @@ Use the colophon's English line to extract the chapter's English topic ("longevi
 ## File naming
 
 ```
-book/01-sutrasthana/01-dirghanjivitiya.md
-book/01-sutrasthana/02-apamarga-tanduliya.md
+sharma-2014/01-sutrasthana/01-dirghanjivitiya.md
+sharma-2014/01-sutrasthana/02-apamarga-tanduliya.md
 …
-book/05-indriyasthana/12-gomayachurniya.md
+sharma-2014/05-indriyasthana/12-gomayachurniya.md
 ```
 
 - Lowercase, hyphenated, **no diacritics in the filename** (filesystem-friendly: `apamarga` not `apāmārga`)
@@ -134,7 +136,7 @@ The Sharma edition has numbered footnotes (¹ ² ³ ⁴ ⁵) for technical Sansk
 
 ## Per-sthāna `_index.md`
 
-In each `book/NN-sthana/` directory, create an `_index.md`:
+In each `sharma-2014/NN-sthana/` directory, create an `_index.md`:
 
 ```markdown
 # Sūtrasthāna — Section on Fundamentals
@@ -160,7 +162,7 @@ Each chapter line: number, link to the `.md` file, em dash, English topic gloss,
 - Don't add commentary, headings, or section markers that aren't in the source. The Sharma edition has no internal H2s within a chapter; the only H2 to add are `## Summing-up verses` (when the source has `तत्र श्लोकाः—` / "Now the summing up verses") and `## Colophon`.
 - Don't add emojis.
 - Don't add a `## Notes` or `## See also` section.
-- Don't include the front-matter pages (i-xl, PDF pages 1-43) — those become the top-level `book/README.md` separately.
+- Don't include the front-matter pages (i-xl, PDF pages 1-43) — those become the top-level `sharma-2014/README.md` separately.
 
 ## Reference implementation
 
