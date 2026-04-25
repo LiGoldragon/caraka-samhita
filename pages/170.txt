@@ -1,39 +1,45 @@
-XVIIIJ                          SŪTRASTHĀNA                                129
+130                           CARAKA-SAṂHITĀ                             [CH
 
-यस्य प्रकुपितं पित्तं शोणिनां ग्राम्य शण्डति । तिलका पिप्पली वध्रा नीलिका तस्य जायते ॥२५॥
-यस्य पित्तं प्रकुपितं शङ्खयोरवतिष्ठते । क्षयदुः शङ्कुको नाम क्षारुरास्तस्थाजायते ॥२६॥
-यस्य पित्तं प्रकुपितं कर्णमूलेऽवतिष्ठते । ज्वरान्ते दुःखितो नाम शोथनासस्थयोजायते ॥२७॥
-वातः श्लीहानमुद्धृत्य कुपितो याति पार्श्वयोः । शनैः परिवृद्धुः पार्श्व चीसी बुद्धिरुपोजायते ॥२८॥
-यस्य वायुः प्रकुपितो गुल्मस्थाने३वतिष्ठते । शोफे संजूनं जनयन् गुल्मस्तस्योपजायते ॥२९॥
-यस्य वायुः प्रकुपितः वङ्क्षणाच्छुक्रदेशगः । वधुसूत्राणुवृत्ती चपा बुद्धिरुपोजायते ॥३०॥
-यस्य वातः प्रकुपितस्त्वग्रक्तांसनार्थाहतः । शोफे संजनव कुक्षौनुत् तस्य जायते ॥३१॥
-रोगाश्रयेर्षपसमानाचेदिमाससुदिद्धाः । निर्दिशा नानारूपम्भो निर्देशः शोथसंभवे ॥३२॥
-वातापित्तकफा यत्र जिझमुणोर्वनिलण्डने । विजाणिपद्वणाच्छास्त्रं त्रिदोष्यान्त्यापि॥३३॥
-जन्मनिन शुद्धं शोथ वेदनाद्यं पुजाचिंत । तं श्रोथकाशिनि रोगे रोगिणति विनिर्दिष्टे ॥३४॥
-विरेचनं परं तस्य जलनोर्ति जीविता । कुपलेन लप्तुजान शिरायां सुखी ॥३५॥
+[Devanagari unclear: continued verses on swelling locations and types]
 
-The quickly emerging swelling caused by kapha, vitiated and located at the tongue root produces upajihvikā.
+The swelling located in the abdomen with foul smelling discharge of urine and
+faeces is rohiṇī (a type of swelling).
 
-The similar swelling cused by kapha, vitiated and located in kākala (uvula) produces galāśuṇḍikā.
+When vitiated doṣas remain located in the chest, it produces vidradhi (an internal
+abscess).
 
-The vitiated kapha located outside the throat causes swelling slowly which produces galagaṇḍa (goitre).
+The swelling caused by combination of all the three doṣas in joints and bones is
+called sandhigatāḍhya.
 
-When the vitiated kapha, firmly located within the throat causes swelling quickly, it produces kalagraha.
+If the swelling is located in the entire body, it is generalised, otherwise it is
+localised.
 
-When vitiated pitta alongwith rakta spreads in skin it causes swelling with redness which produces visarpa (erysipelas).
+By such variations, the types of swellings are classified.
 
-When vitiated pitta is located in skin and rakta, swelling and redness appear which causes pidakā (boils).
+Treatment of swellings is described in the chapters on respective conditions–
+gulma, vidradhi, oedema, prameha, leprosy etc. The general treatment is also de-
+scribed here.
 
-When the vitiated pitta goes to rakta and dries up there, it produces tilaka, piplu, vyaṅga and nīlikā.
+The treatment of swelling consists of fasting, lightening therapy (vomiting,
+purgation), bloodletting, application of pastes, bandaging, fomentation, evacuation
+of stagnant doṣas, restoration of digestive power and so on. The diet should be light
+and digestive.
 
-When the vitiated pitta is located in temporal regions, severe swelling known as śaṅkhaka is produced.
+[Devanagari unclear: closing verses on chapter summary]
 
-When, at the end of fever, pitta gets vitiated and is located at the roots of the ears, a severe and fatal swelling known as śotha arises.
+तत्र श्लोकाः–
 
-When the vitiated vāta elevates the spleen producing mild pain in sides, the spleen enlarges.
+Now (the summing up) verses–
 
-When the vitiated vāyu is located in the regions of gulma causing swelling and pain, it produces gulma.
+The two types of swelling–innate and exogenous, three types caused by doṣas,
+seven types based on causation, etiology and symptoms of the seven types, prognosis,
+complications and treatment principle have been described in the chapter on three
+swellings.
 
-When the vitiated vāyu moves from groins to testicles causing swelling and pain, it produces vṛddhi.
+इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते श्लोकस्थाने त्रिशोथीयो
+नाम अष्टादशोऽध्यायः ॥१८॥
 
-22 C.S.-I
+Thus ends the eighteenth chapter on three swellings in Ślokasthāna in the
+treatise composed by Agniveśa and redacted by Caraka. (18)
+
+                                  •

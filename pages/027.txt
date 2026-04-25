@@ -8,7 +8,7 @@ life-span (100 years).
 10. Scientific study of drugs :
 
 Plants were studied analytically during the Vedic period as evident from the
-'osadhi-sūkta' of Ṛgveda (10.97. 1-23) and relevant portions of Atharvaveda (8.7.1-
+'oṣadhi-sūkta' of Ṛgveda (10.97. 1-23) and relevant portions of Atharvaveda (8.7.1-
 8, 11.6. 16-17) etc. The scientific study of morphology and pharmacological activity
 of the medicinal plants and other drugs was started during the post-Vedic period
 the document of which is found in the Caraka-saṃhitā. Mostly the plants were
@@ -20,7 +20,7 @@ of drugs is given from various angles². Division of drugs into fifty groups acc
 to pharmacological action³ is the first attempt in this direction and as such is the
 most valuable contribution of the Caraka-saṃhitā. The basic concepts of the
 pharmacology such as rasa, guṇa, vīrya, vipāka and prabhāva were studied
-rationally for interpreting the drug action and are described systematically in the
+rationally for intrepreting the drug action and are described systematically in the
 text.⁴
 
 It is difficult to enumerate the contributions of the Caraka-saṃhitā in toto,
@@ -41,7 +41,7 @@ under the guidance of Dr. P.M. Mehta who later became the first Director of the
 Central Institute of Research in Indigenous Systems of Medicine established at
 Jamnagar. For decades it was the only edition available for the English-knowing
 
-1. C. Sū. 1, 123-126
+1. C. Sū. 1. 123-126
 2. C. Sū. 1, 4.
 3. C. Sū. 4.
 4. C. Sū. 26.
