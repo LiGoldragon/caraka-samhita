@@ -13,16 +13,15 @@ This repository holds the project's working materials for the *Caraka Saṃhitā
 
 ## Working conventions
 
-### 1. Raw OCR in `pages/` is not to be casually hand-edited
+### 1. The canonical English text per edition lives in `<edition>/`
 
-The `pages/*.txt` files are the machine transcription of the Priya Vrat Sharma 2014 edition. Treat them as a historical record of what OCR produced, not as a verified source text. Devanagari OCR is lossy; many pages contain garbled Sanskrit and partial English.
+Each edition of the Caraka Saṃhitā gets its own top-level directory named for the edition (e.g., `sharma-2014/` for the Priya Vrat Sharma Chaukhambha 2014 edition). Inside, the work is split per sthāna into `NN-sthana/MM-name.md` chapter files following [`sharma-2014/CONVENTIONS.md`](./sharma-2014/CONVENTIONS.md).
 
-When a correction is warranted (e.g., a clear OCR misread confirmed against the scan at `.ocr_pages/page-NNN.png`):
+When a new edition is acquired (e.g., Sharma-Dash 1976, Nirnaya Sagar 1922 with Cakrapāṇi commentary, Angot 2011 French), it gets a sibling directory and its own `CONVENTIONS.md` if its source/format differs.
 
-- Apply the fix inline in the `pages/NNN.txt` file.
-- Record the correction in [`notes/ocr-corrections.md`](./notes/ocr-corrections.md) with: page number, before, after, scan evidence, and short rationale.
+The intermediate per-page OCR text that produced `sharma-2014/` lived in `pages/*.txt` and is preserved in git history; the PDF-page PNG scans lived in `.ocr_pages/` (gitignored, regeneratable from the source PDF in `~/git/bibliography/en/caraka/` via `pdftoppm`). Manual corrections applied during that OCR pass are logged in [`notes/ocr-corrections.md`](./notes/ocr-corrections.md) for audit.
 
-Do **not** "clean up" OCR output cosmetically. Only corrections with scan evidence are permitted.
+Do **not** smooth or paraphrase the published English. Fix obvious typos only (the Sharma edition has a few). For any non-typo edit, record it in `notes/ocr-corrections.md` with scan evidence.
 
 ### 2. Verified Sanskrit belongs in `notes/philology/`
 

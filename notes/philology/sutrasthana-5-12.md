@@ -10,7 +10,7 @@ This note records the state of that question as of 2026-04-23.
 
 ## The received Sanskrit
 
-From the scan of page 074 of the Priya Vrat Sharma 2014 Chaukhambha edition ([`.ocr_pages/page-074.png`](../../.ocr_pages/page-074.png), captured in [`../../pages/074.txt`](../../pages/074.txt) with the one OCR correction logged in [`../ocr-corrections.md`](../ocr-corrections.md)):
+From the scan of page 074 of the Priya Vrat Sharma 2014 Chaukhambha edition (PDF-page PNG regeneratable as `.ocr_pages/page-074.png` from the source PDF; the Devanagari is preserved in the chapter markdown at [`../../sharma-2014/01-sutrasthana/05-matrashitiya.md`](../../sharma-2014/01-sutrasthana/05-matrashitiya.md), with the one OCR correction logged in [`../ocr-corrections.md`](../ocr-corrections.md)):
 
 > षष्टिकाशालिमुद्गांश्च सैन्धवान्लवणं घृतम् ।
 > आमलकानि धान्यं च यवान् क्षीरं घृतं मधु ॥१२॥

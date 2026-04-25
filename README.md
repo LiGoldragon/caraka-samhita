@@ -35,13 +35,13 @@ caraka-samhita/
 │                          — thematic digest from Sū. 27 on doṣa-aggravating fruits
 │                            and the boil-press-add-fat preparation rule for gourds
 │
-├── pages/                 — per-page OCR text, 262 pages
-│                            Source: Priya Vrat Sharma, Chaukhambha Orientalia, 2014
-│                            edition. Machine-transcribed; manually corrected entries
-│                            tracked in notes/ocr-corrections.md.
-│
-├── .ocr_pages/            — PNG scans of the same pages (gitignored; regeneratable
-│                            from the source PDF in ~/git/bibliography/en/caraka/)
+├── sharma-2014/           — chapter-level markdown of the Priya Vrat Sharma
+│                            (Chaukhambha Orientalia, 2014) edition. Volume I only:
+│                            5 sthānas, 66 chapters. See sharma-2014/README.md and
+│                            sharma-2014/CONVENTIONS.md.
+│                            Future editions (Sharma-Dash 1976, Nirnaya Sagar 1922,
+│                            Angot 2011, Sen-Sen 1894) will live as sibling
+│                            edition-named directories.
 │
 └── notes/
     ├── translation-sources.md
@@ -49,8 +49,8 @@ caraka-samhita/
     │                        what failed, where the scholarly gold standard lives
     │
     ├── ocr-corrections.md
-    │                      — every manual correction applied to pages/, with before,
-    │                        after, and scan evidence
+    │                      — historical record of manual corrections applied during
+    │                        the page-by-page OCR pass that produced sharma-2014/
     │
     └── philology/
         └── sutrasthana-5-12.md
@@ -59,6 +59,8 @@ caraka-samhita/
                              closely and whose received translation we do not trust)
 ```
 
+The intermediate `pages/*.txt` per-page OCR (582 files, 5 sthānas) and `.ocr_pages/page-NNN.png` PDF-page scans are no longer in the working tree. The OCR text is preserved in git history; the PNGs are regeneratable from the source PDF via `pdftoppm`.
+
 ## Editions on disk
 
 Primary reference edition, already downloaded and indexed in the standalone bibliography repo:
@@ -66,7 +68,7 @@ Primary reference edition, already downloaded and indexed in the standalone bibl
 - **Caraka Saṃhitā**, trans. Priya Vrat Sharma (Chaukhambha Orientalia, 2014).\
   Path: `~/git/bibliography/en/caraka/caraka-samhita-priya-vrat-sharma.pdf`.\
   MD5: `93746e6b31e5d0d816e6ac8923b3b634`.\
-  OCR of this edition is the source of the `pages/` directory.
+  Chapter-level English markdown of this edition lives in `sharma-2014/`.
 
 Editions not yet on disk but on the wish-list (see `notes/translation-sources.md`):
 
@@ -78,8 +80,8 @@ Editions not yet on disk but on the wish-list (see `notes/translation-sources.md
 
 Two principles:
 
-1. **The raw `pages/*.txt` OCR is preserved as-is** except where a scan-verified correction is recorded in `notes/ocr-corrections.md` with the specific diff and the reason.
-2. **Every verse reference that ends up in a downstream article** (in TheBookOfSol or elsewhere) should be **verifiable** from this repository: either from the raw OCR, a corrected OCR entry, or a verified-Sanskrit digest in `notes/philology/`.
+1. **The chapter-level markdown in `sharma-2014/` is the canonical English-side reference** for the Sharma 2014 edition. Manual corrections applied during the OCR pass are logged in `notes/ocr-corrections.md` with scan evidence.
+2. **Every verse reference that ends up in a downstream article** (in TheBookOfSol or elsewhere) should be **verifiable** from this repository: either from the chapter-level markdown, the historical OCR text in git history, or a verified-Sanskrit digest in `notes/philology/`.
 
 ## Version control
 

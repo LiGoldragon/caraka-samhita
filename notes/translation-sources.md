@@ -8,12 +8,12 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 
 - **Path:** `~/git/bibliography/en/caraka/caraka-samhita-priya-vrat-sharma.pdf`
 - **Registered MD5:** `93746e6b31e5d0d816e6ac8923b3b634`
-- **Status:** Primary source for the `pages/*.txt` OCR in this repository. 262 pages covering Sūtrasthāna and commentary.
+- **Status:** Source of the chapter-level English markdown in [`../sharma-2014/`](../sharma-2014/). 582-page Vol I covering Sūtrasthāna (30 ch), Nidānasthāna (8), Vimānasthāna (8), Śārīrasthāna (8), Indriyasthāna (12) — the foundational, diagnostic, methodological, embryological, and prognostic sthānas. Vols II-VI (Cikitsā, Kalpa, Siddhi sthānas — the clinical-therapeutics half of the canon) are not on disk.
 - **Strengths:** Bilingual Sanskrit–English, widely available, readable English. The English translation is the basis for almost every modern Ayurvedic-studies reference in the Anglophone world.
 - **Limits:**
   - The English translation makes interpretive choices that are not always supported by the Sanskrit (see [`philology/sutrasthana-5-12.md`](./philology/sutrasthana-5-12.md) for a worked example: *dhānyaṃ* rendered as "rain water"; *saindhavān lavaṇaṃ* smoothed into a "rock salt" compound despite grammatical non-agreement).
   - Does not include classical commentaries.
-  - OCR on Devanagari portions is imperfect; manual corrections tracked in [`ocr-corrections.md`](./ocr-corrections.md).
+  - OCR on Devanagari portions is imperfect; for chapters from book p. 141 onwards the conversion uses English-only paragraphs with the dense Sanskrit verses dropped (see `sharma-2014/CONVENTIONS.md`). Manual corrections tracked in [`ocr-corrections.md`](./ocr-corrections.md).
 
 ## Editions we attempted and failed to acquire
 
