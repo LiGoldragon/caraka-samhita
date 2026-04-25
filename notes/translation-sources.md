@@ -6,7 +6,7 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 
 ### Caraka Saṃhitā, trans. Priya Vrat Sharma (Chaukhambha Orientalia, 2014)
 
-- **Path:** `~/git/bibliography/en/caraka/caraka-samhita-priya-vrat-sharma.pdf`
+- **Path:** `~/primary/repos/bibliography/en/caraka/caraka-samhita-priya-vrat-sharma.pdf`
 - **Registered MD5:** `93746e6b31e5d0d816e6ac8923b3b634`
 - **Status:** Source of the chapter-level English markdown in [`../sharma-2014/`](../sharma-2014/). 582-page Vol I covering Sūtrasthāna (30 ch), Nidānasthāna (8), Vimānasthāna (8), Śārīrasthāna (8), Indriyasthāna (12) — the foundational, diagnostic, methodological, embryological, and prognostic sthānas. Vols II-VI (Cikitsā, Kalpa, Siddhi sthānas — the clinical-therapeutics half of the canon) are not on disk.
 - **Strengths:** Bilingual Sanskrit–English, widely available, readable English. The English translation is the basis for almost every modern Ayurvedic-studies reference in the Anglophone world.
