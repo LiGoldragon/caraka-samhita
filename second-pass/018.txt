@@ -1,0 +1,48 @@
+xvi
+
+   of the sage was 'हिरण्याक्षः कुशिकः' is confirmed by his reference as such in the
+   preceding chapter (C.Sū. 25. 14-16). In fact, Kauśika has contradicted his
+   views and as such may be a different person belonging to his clan or by
+   his son.
+
+18. ''तत्त्वमस्नुतवतर्लोते सक:'' (C.Sū. 27. 25) the word ''तत्त्वम्स्वादु:'' should be replaced by
+    ''सस्वादु:''.
+
+19. The word ''जंगलचारिणः:'' (C.Sū. 26. 55) though adopted by Cakrapāṇi does not
+    seem to be correct version. It should be जंगलवारिणः: like जलचारिणः.
+
+20. In description of vegetables also (C.Sū. 27), Caraka has followed an order. In
+    the end he has given the description of tubers but in the midst surprisingly the
+    description of ''Sarṣapa sāka'' has come which is definitely a later interpolation
+    by some (Punjabi?) scholar fond of ''Sarson kā sāg''.
+
+21. ''परुषक मृदुकं च पातलेयं न शस्तते'' (C.Sū. 27. 128) here the repeated use of 'Ca' does
+    not seem to be proper. It should be ''तालनिये प्रशस्तते''.
+
+22. ''मधुराण्यनुपानिने पिलानःसेभद्राणि च'' (C.Sū. 27. 163) here ''मधुराण्यनुपाकीनि'' should be
+    substituted for ''मधुराण्यलपाकोनि'' as indicated by Cakrapāṇi and from relevance
+    of the context 'anupākīnī' means the fruits of the plant known as anupākī.
+
+23. Caraka discusses the mode of nourishment of dhātus and malas by ābhārasa
+    and mala respectively. Looking to this the present version in the text seems
+    to be incorrect and needs to be rectified.¹
+
+24. In nidāna of Kaphaja gulma (C. Ni. 3. 10) ''अन्नबुद्धरिम्'' should be read as ''अबुक्षरम्''
+    because while hungry if one takes too much water it may cause kaphaja
+    gulma. This is corroborated by other texts as well. The word ''अन्नबुद्धरिम्'' does
+    not fit here.
+
+25. In the chapter of prameha (C. Ni. 4. 10), there is one ikṣuvālikārasameha
+    among the ten types of kaphaja premeha but later while describing it, it is said
+    to cause passing of urine similar to the juice of kāṇḍekṣu. It looks anomalous
+    because ikṣuvālikā and kāṇḍekṣu have been mentioned separately (C.Sū. 25.
+    49, vi. 8. 135) and as such are different plants. The correct version should be
+    'इक्षुवालिकारसंकारार्द्र' in place of 'काण्डेक्षुरसंकारार्द्र'.
+
+26. In the treatment of gulma, there are some cūrṇa yogas (formulations of powders)
+    which have to be taken with some sour liquids. Here the word ''शूलानाहहरि'' should
+    be ''शूलानाहहरि'' because it qualifies the word ''चूर्णयोगः''. Here 'peyā' does not mean
+    "liquid gruel" but is a verbal form meaning "should be taken as drink".²
+
+१. धातवो मलत्मानः: प्रसादाख्यो मलसत्ना: पुष्यन्त: should be read as धातवः मलस्मानाः प्रसादाख्यो मलसत्मानाः पुष्यन्तः।
+२. यः चूर्णयोगः........। शूलानाहहरी पेया बीजपूरस्रेन वा । (C.Ci. 5. 76-77)
