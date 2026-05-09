@@ -85,7 +85,7 @@ Reading **4** is unlikely to be what modern traditional Ayurvedic commentators h
 3. **Archaic morphology:** the verse is old and the *saindhavān* form reflects a dialectal/archaic accusative pattern that later grammarians regularized.
 4. **Genuinely separate items:** the verse is listing *saindhavān* (something plural — perhaps regional products) and *lavaṇaṃ* (salt as a *rasa*, or salt generically) as two distinct items, and later commentators silently merged them.
 
-**Without access to Cakrapāṇidatta's *Āyurveda Dīpikā* commentary, none of these can be confirmed or ruled out.** The commentary is the canonical resolver for this kind of anomaly. See [`../translation-sources.md`](../translation-sources.md) for the state of our efforts to acquire it.
+**Without access to a high-resolution edition of Cakrapāṇidatta's *Āyurveda Dīpikā* commentary, none of these can be confirmed or ruled out.** The commentary is the canonical resolver for this kind of anomaly. The free-path 1922 Nirṇaya-Sāgara PDF was tested 2026-05-09 and rejected as unrecoverable; see [`../translation-sources.md`](../translation-sources.md) for the disposition and the remaining acquisition paths.
 
 ## Anomaly 2 — *dhānyaṃ* is not "rain water"
 
@@ -140,7 +140,7 @@ Interpretation: there is real **manuscript variance** in Sū. 5.12. At least one
 
 ### Priority actions
 
-1. **Acquire Cakrapāṇi's commentary.** Either via the 1922 Nirnaya Sagar PDF on Internet Archive (733 MB, needs Devanagari OCR) or the Sharma/Dash printed 7-volume set. See [`../translation-sources.md`](../translation-sources.md).
+1. **Acquire Cakrapāṇi's commentary** via the Sharma/Dash printed 7-volume set, or a higher-resolution rescan of the 1922 Nirṇaya-Sāgara — the free-path IA scan was tested and rejected as unrecoverable on 2026-05-09; see [`../translation-sources.md`](../translation-sources.md).
 2. **Check Trikamji critical edition** for manuscript variants on this verse.
 3. **Check CCRAS online edition** for a third English rendering.
 
@@ -156,4 +156,4 @@ Until Anomaly 1 is resolved:
 - *Caraka Saṃhitā*, trans. Priya Vrat Sharma (Chaukhambha Orientalia, 2014) — primary text on disk
 - [wisdomlib.org — Charaka Samhita English, Sūtrasthāna 5](https://www.wisdomlib.org/hinduism/book/charaka-samhita-english/d/doc627515.html) — second English rendering showing *jāṅgala-māṃsa* variant
 - [GRETIL](https://github.com/INDOLOGY/GRETIL-mirror) — Sanskrit corpus; **does not cover** Sū. 5 (only Sū. 1, 12, 26, 27, 28)
-- [1922 Nirnaya Sagar with Āyurveda Dīpikā](https://archive.org/details/LXpJ_charaka-samhita-sanskrit-with-ayurveda-dipika-commentary-of-chakra-pani-dutta-by) — public-domain Cakrapāṇi commentary edition, awaiting local Devanagari OCR
+- [1922 Nirnaya Sagar with Āyurveda Dīpikā](https://archive.org/details/LXpJ_charaka-samhita-sanskrit-with-ayurveda-dipika-commentary-of-chakra-pani-dutta-by) — public-domain Cakrapāṇi commentary edition; tested 2026-05-09 and rejected as unrecoverable due to scan resolution. See [`../translation-sources.md`](../translation-sources.md).

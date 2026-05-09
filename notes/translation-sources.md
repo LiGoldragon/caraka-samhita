@@ -42,7 +42,7 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 - Chowkhamba Sanskrit Series, 7 volumes. The scholarly gold standard for Caraka work in English.
 - **Why wanted:** includes Cakrapāṇidatta's *Āyurveda Dīpikā* commentary — the canonical traditional commentary that resolves grammatical anomalies in the received Sanskrit. Without this, the philological work in `philology/` cannot reach definitive conclusions for verses where received Sanskrit is ambiguous.
 - **Status:** not yet acquired. Anna's Archive has a partial (Śārīra-sthāna only, hash `037f1c66533e9a9701f4c8c2907bbda7`); the Sūtra-sthāna volume would have to be located separately. Available new from Vedic Books / Amazon.
-- **Priority:** **HIGH.** This is the single most useful addition to the project library.
+- **Priority:** **HIGH.** This is now the single most useful addition to the project library, since the alternative free-path Cakrapāṇi commentary edition (1922 Nirṇaya-Sāgara) was tested and rejected — see below.
 
 ### Jādavji Trikamji Āchārya critical Sanskrit edition
 
@@ -50,12 +50,18 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 - **Why wanted:** the standard critical Sanskrit text with manuscript apparatus. Pairs well with GRETIL for chapters GRETIL covers.
 - **Status:** not yet acquired. Widely available as a physical book.
 
-### 1922 Nirnaya Sagar edition with Cakrapāṇi's Āyurveda Dīpikā
+## Editions tested and rejected
+
+### 1922 Nirṇaya-Sāgara edition with Cakrapāṇi's Āyurveda Dīpikā — **REJECTED 2026-05-09**
 
 - Edited by Vaman Kesheo Datar, Bombay. Public domain.
-- **Why wanted:** free, public-domain edition with the canonical traditional commentary. Functionally equivalent (for verse-level philology) to the Sharma/Dash volume.
-- **Status:** available on [Internet Archive](https://archive.org/details/LXpJ_charaka-samhita-sanskrit-with-ayurveda-dipika-commentary-of-chakra-pani-dutta-by) as a 733 MB PDF. The archive.org automatic OCR failed completely on the Devanagari text — the `_djvu.txt` is all "CC-0" metadata stamps, useless. A local run of Devanagari-capable OCR (Tesseract with `san` language data, or Google Cloud Vision) on the downloaded PDF would extract a usable searchable text.
-- **Priority:** **MEDIUM.** Free and permanently accessible. A one-time OCR pass would unlock Cakrapāṇi's commentary for the entire project.
+- **Anna's Archive MD5:** `549e679c4fa376674123e3c1f6dea19b`
+- **Source:** [Internet Archive item LXpJ_charaka-samhita-sanskrit-with-ayurveda-dipika-commentary-of-chakra-pani-dutta-by](https://archive.org/details/LXpJ_charaka-samhita-sanskrit-with-ayurveda-dipika-commentary-of-chakra-pani-dutta-by) — 733 pp PDF.
+- **What was attempted:** the PDF was downloaded, indexed in `bibliography.md`, baseline-Tesseract'd (`san` language data), and trial-OCR'd with Claude vision agents on pages 1–36 (a calibration run for the full 733-page pass).
+- **Outcome:** the underlying scan resolution combined with ink bleed-through makes the small print (preface, indices, Cakrapāṇi commentary) **unrecoverable** by any OCR method. Title-page large type extracted cleanly; everything below the title-page font size devolved into either extensive `[?]`-flagged uncertainty or hallucinated noise (e.g. `ज्व्ज्व्ज्व्...` runs from agents pattern-matching against blurred shapes). Sanskrit-aware vision agents themselves flagged the source as needing higher-resolution rescan before promotion.
+- **Disposition:** PDF + Tesseract sidecar + vision-OCR scratch all removed from the library on 2026-05-09. The bibliography entry for `caraka-with-cakrapani-dipika-1922-nirnaya-sagar.pdf` was deleted; this entry preserves the trail.
+- **Re-acquisition path if needed later:** seek a higher-resolution rescan of the same 1922 edition (a different IA upload or a university-library digital copy), or pivot to the Sharma/Dash 7-volume printed set (above) for the same Cakrapāṇi commentary content.
+- **Report:** `~/primary/reports/poet/84-vision-ocr-trial-and-scan-quality-audit.md` documents the trial method, agent self-reports, and corollary scan-quality audit across the rest of the library's OCR targets.
 
 ## Digital Sanskrit sources checked
 
@@ -85,7 +91,7 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 
 ## Immediate research priorities
 
-1. Either **acquire the 1922 Nirnaya Sagar PDF + run Devanagari OCR locally** (free path) or **acquire the Sharma/Dash 7-volume set** (fastest path to commentary-verified readings).
+1. **Acquire the Sharma/Dash 7-volume set** (Cakrapāṇi-commentary-based edition) or a higher-resolution rescan of the 1922 Nirṇaya-Sāgara — the free-path 1922 PDF was tested and is unrecoverable, see "Editions tested and rejected" above.
 2. Resolve the **Sūtrasthāna 5.12 *saindhavān*** question using whichever of the above becomes available first. See [`philology/sutrasthana-5-12.md`](./philology/sutrasthana-5-12.md).
 3. Extend the same verification discipline to any other verse we plan to quote authoritatively in a downstream article.
 
@@ -93,5 +99,5 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 
 - [Anna's Archive](https://annas-archive.org/) via the `annas` CLI in the mentci-tools bundle
 - [GRETIL mirror (GitHub)](https://github.com/INDOLOGY/GRETIL-mirror)
-- [Internet Archive — Caraka with Ayurveda Dipika 1922](https://archive.org/details/LXpJ_charaka-samhita-sanskrit-with-ayurveda-dipika-commentary-of-chakra-pani-dutta-by)
+- [Internet Archive — Caraka with Ayurveda Dipika 1922](https://archive.org/details/LXpJ_charaka-samhita-sanskrit-with-ayurveda-dipika-commentary-of-chakra-pani-dutta-by) (tested unrecoverable; see above)
 - [wisdomlib.org — Charaka Samhita English](https://www.wisdomlib.org/hinduism/book/charaka-samhita-english)

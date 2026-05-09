@@ -39,9 +39,9 @@ caraka-samhita/
 │                            (Chaukhambha Orientalia, 2014) edition. Volume I only:
 │                            5 sthānas, 66 chapters. See sharma-2014/README.md and
 │                            sharma-2014/CONVENTIONS.md.
-│                            Future editions (Sharma-Dash 1976, Nirnaya Sagar 1922,
-│                            Angot 2011, Sen-Sen 1894) will live as sibling
-│                            edition-named directories.
+│                            Future editions (Sharma-Dash 1976, Trikamji critical
+│                            Sanskrit, Angot 2011, Sen-Sen 1894) will live as
+│                            sibling edition-named directories.
 │
 └── notes/
     ├── translation-sources.md
@@ -63,7 +63,7 @@ The intermediate `pages/*.txt` per-page OCR (582 files, 5 sthānas) and `.ocr_pa
 
 ## Editions on disk
 
-Primary reference edition, already downloaded and indexed in the standalone bibliography repo:
+Primary reference edition, already downloaded and indexed in the standalone library repo:
 
 - **Caraka Saṃhitā**, trans. Priya Vrat Sharma (Chaukhambha Orientalia, 2014).\
   Path: `~/primary/repos/library/en/caraka/caraka-samhita-priya-vrat-sharma.pdf`.\
@@ -74,7 +74,6 @@ Editions not yet on disk but on the wish-list (see `notes/translation-sources.md
 
 - R.K. Sharma & Bhagwan Dash, *Caraka Saṃhitā: Text with English Translation & Critical Exposition Based on Cakrapāṇi Datta's Āyurveda Dīpikā* (Chowkhamba Sanskrit Series, 7 vols) — the commentary-rich gold standard.
 - Jādavji Trikamji Āchārya critical Sanskrit edition (Chaukhambha Krishnadas Academy reprint) — for critical apparatus / manuscript variants.
-- 1922 Nirnaya Sagar edition with Cakrapāṇi's *Āyurveda Dīpikā* commentary (archive.org, 733 MB PDF) — public domain; needs Devanagari-capable OCR.
 
 ## Provenance convention
 

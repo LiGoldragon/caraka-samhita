@@ -2,7 +2,7 @@
 
 How `pages/NNN.txt` plain-text scans become `sharma-2014/NN-sthana/MM-name.md` chapters.
 
-This conversion targets the **P. V. Sharma 2014 Chaukhambha Orientalia edition** specifically. Future editions of the Caraka Saṃhitā in this repo will live under their own sibling directories (e.g., `sharma-dash-1976/`, `nirnaya-sagar-1922/`) with their own conventions.
+This conversion targets the **P. V. Sharma 2014 Chaukhambha Orientalia edition** specifically. Future editions of the Caraka Saṃhitā in this repo will live under their own sibling directories (e.g., `sharma-dash-1976/`, `trikamji-critical/`) with their own conventions.
 
 ## Source
 

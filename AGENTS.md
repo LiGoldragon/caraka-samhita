@@ -17,7 +17,7 @@ This repository holds the project's working materials for the *Caraka Saṃhitā
 
 Each edition of the Caraka Saṃhitā gets its own top-level directory named for the edition (e.g., `sharma-2014/` for the Priya Vrat Sharma Chaukhambha 2014 edition). Inside, the work is split per sthāna into `NN-sthana/MM-name.md` chapter files following [`sharma-2014/CONVENTIONS.md`](./sharma-2014/CONVENTIONS.md).
 
-When a new edition is acquired (e.g., Sharma-Dash 1976, Nirnaya Sagar 1922 with Cakrapāṇi commentary, Angot 2011 French), it gets a sibling directory and its own `CONVENTIONS.md` if its source/format differs.
+When a new edition is acquired (e.g., Sharma-Dash 1976, Trikamji critical Sanskrit, Angot 2011 French), it gets a sibling directory and its own `CONVENTIONS.md` if its source/format differs.
 
 The intermediate per-page OCR text that produced `sharma-2014/` lived in `pages/*.txt` and is preserved in git history; the PDF-page PNG scans lived in `.ocr_pages/` (gitignored, regeneratable from the source PDF in `~/primary/repos/library/en/caraka/` via `pdftoppm`). Manual corrections applied during that OCR pass are logged in [`notes/ocr-corrections.md`](./notes/ocr-corrections.md) for audit.
 
@@ -85,4 +85,4 @@ Do not use `git commit` / `git push` directly.
 
 ## When in doubt
 
-If a convention is not explicit here, look at recent commits (`jj log --limit 20`) or at the conventions in the companion repositories ([`~/git/TheBookOfSol/AGENTS.md`](../TheBookOfSol/AGENTS.md), [`~/primary/repos/library/CLAUDE.md`](../bibliography/CLAUDE.md)). Prefer to preserve existing structure rather than introduce novelty without reason.
+If a convention is not explicit here, look at recent commits (`jj log --limit 20`) or at the conventions in the companion repositories ([`~/git/TheBookOfSol/AGENTS.md`](../TheBookOfSol/AGENTS.md), [`~/primary/repos/library/CLAUDE.md`](../library/CLAUDE.md)). Prefer to preserve existing structure rather than introduce novelty without reason.
