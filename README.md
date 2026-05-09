@@ -66,7 +66,7 @@ The intermediate `pages/*.txt` per-page OCR (582 files, 5 sthānas) and `.ocr_pa
 Primary reference edition, already downloaded and indexed in the standalone bibliography repo:
 
 - **Caraka Saṃhitā**, trans. Priya Vrat Sharma (Chaukhambha Orientalia, 2014).\
-  Path: `~/primary/repos/bibliography/en/caraka/caraka-samhita-priya-vrat-sharma.pdf`.\
+  Path: `~/primary/repos/library/en/caraka/caraka-samhita-priya-vrat-sharma.pdf`.\
   MD5: `93746e6b31e5d0d816e6ac8923b3b634`.\
   Chapter-level English markdown of this edition lives in `sharma-2014/`.
 
