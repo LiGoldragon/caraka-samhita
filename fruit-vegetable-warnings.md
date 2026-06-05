@@ -104,6 +104,37 @@ kośāmra, bhavya, jambū, nārikela, dāḍima, āmalaka — **these fruits and
 other substances, all sour liquids or non-liquids are antagonistic to milk.**"
 
 
+## GRETIL verse anchors (Sū. 27)
+
+The section headers above use Sharma's chapter ranges. For verse-level verification, the mapping below gives the GRETIL / Trikamji critical-edition numbers, confirmed against the GRETIL Caraka text (which covers Sū. 27 in full). GRETIL marks the *śāka-varga* (vegetable group) as closing at 27.124 — *caturthaḥ śākavargo 'yaṃ pattrakandaphalāśrayaḥ* — and the *phala-varga* (fruit group) as opening at 27.125 with grapes. The downstream `Fruit_as_Medicine` digest had mis-assigned several per-fruit numbers; those are corrected against this mapping (full account in [`notes/philology/sutrasthana-27-fruit-verses-gretil.md`](./notes/philology/sutrasthana-27-fruit-verses-gretil.md)).
+
+### Fruits (phala-varga, GRETIL 27.125 onward)
+
+| Fruit | GRETIL verse | Sanskrit incipit |
+|---|---|---|
+| grapes (*mṛdvīkā* / *drākṣā*) | 27.125–126 | *mṛdvīkā bṛṃhaṇī vṛṣyā madhurā snigdhaśītalā* |
+| *kharjūra* (date) | 27.127 | *madhuraṃ bṛṃhaṇaṃ vṛṣyaṃ kharjūraṃ guru śītalam* |
+| *āmrāta* (wild mango) | 27.129 | *madhuraṃ bṛṃhaṇaṃ balyam āmrātaṃ tarpaṇaṃ guru* |
+| *tāla* / *nārikela* (coconut) | 27.130 | *tālaśasyāni siddhāni nārikelaphalāni ca* |
+| *bhavya* | 27.131 | *pittaśleṣmakaraṃ bhavyaṃ grāhi vaktraviśodhanam* |
+| sour *parūṣaka* / grapes / jujube / āruka / nikuca | 27.132 | *amlaṃ parūṣakaṃ drākṣā badarāṇy ārukāṇi ca* |
+| *bilva* (bael) | 27.138 | *bilvaṃ tu durjaraṃ pakvaṃ doṣalaṃ pūtimārutam* |
+| mango (*āmra*), three forms | 27.139 | *pakvam āmraṃ jayed vāyuṃ māṃsaśukrabalapradam* |
+| *jambu* (java plum) | 27.140 | *jāmbavaṃ kaphapittaghnaṃ grāhi vātakaraṃ param* |
+| *badara* (jujube) | 27.141 | *badaraṃ madhuraṃ snigdhaṃ bhedanaṃ vātapittajit* |
+| *panasa* / *moca* / *rājādana* (jackfruit, plantain) | 27.143 | *sampakvaṃ panasaṃ mocaṃ rājādanaphalāni ca* |
+| six *tridoṣaghna* / *viṣaghna* fruits | 27.145–146 | *nīpaṃ śatāhvakaṃ pīlu tṛṇaśūnyaṃ vikaṅkatam* |
+| *āmalaka* (all rasas but saline) | 27.147 | *vidyād āmalake sarvān rasāṃl lavaṇavarjitān* |
+| *bibhītaka* | 27.148 | *rasāsṛṅmāṃsamedojān doṣān hanti vibhītakam* |
+| pomegranate (*dāḍima*), three varieties | 27.149–150 | *snigdhoṣṇaṃ dāḍimaṃ hṛdyaṃ kaphapittavirodhi ca* |
+| *śleṣmātaka* / *aṅkoṭa* | 27.159 | *śleṣmalaṃ madhuraṃ śītaṃ śleṣmātakaphalaṃ guru* |
+| *āmrātaka* / *dantaśaṭha* / *karamarda* / *airāvata* | 27.161 | *āmrātakaṃ dantaśaṭham amlaṃ sakaramardakam* |
+| *parpaṭakī* | 27.162 | *vātalaṃ kaphapittaghnaṃ vidyāt parpaṭakīphalam* |
+
+### Vegetables (śāka-varga, GRETIL 27.88–124)
+
+The group runs to its closing verse at 27.124. Confirmed per-item anchors: *trapuṣa* / *ervāruka* (cucumber) 27.110–112; lotus and water-lily stalks (*bisa*, *śālūka*, *kumuda*, *utpala*) 27.116–118; mustard greens (*sārṣapa-śāka*) 27.122; mushrooms (*chattra*, all but *sarpacchattraka*) 27.123. The remaining named vegetables (the *tila* / *vetasa* / *eraṇḍa*, *kusumbha*, *alābu*, and *keluta*-group entries) fall within 27.88–124; exact per-item anchoring awaits closer name-matching against GRETIL's plant vocabulary.
+
 ## Summary of the Pattern
 
 The Caraka Saṃhitā does not treat fruits and vegetables as inherently
