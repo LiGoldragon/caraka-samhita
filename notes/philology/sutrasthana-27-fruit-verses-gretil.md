@@ -54,9 +54,18 @@ Three varieties: sour-astringent-sweet (best, *vāta*-alleviating, non-conflicti
 
 Six fruits "*doṣaghna* (doṣa-destroying) and *garahāri* (poison-removing)." The project lists these as *"nīpa, śatāhvaka, pīlu, **ketakī**, vikaṅkata, prācīnāmalaka"* (cited as Sū. 27.158). Content: matches — **except a variant reading**: where Sharma/the project has *ketakī*, GRETIL reads *tṛṇaśūnya*. See below.
 
-## A variant reading: *ketakī* vs *tṛṇaśūnya*
+## The fourth fruit, resolved: *tṛṇaśūnya* = *ketakī* (Cakrapāṇi)
 
-The fourth fruit in the six-fruit list is the one genuine textual divergence found, not merely a numbering one. Sharma's text (and so the project) reads *ketakī*; GRETIL's Trikamji-based text reads *tṛṇaśūnya*. Both are plausible plant names; the metre is undisturbed. This is the kind of manuscript variance the [`translation-sources.md`](../translation-sources.md) note anticipates, and exactly what Cakrapāṇidatta's *Āyurveda Dīpikā* commentary would adjudicate — still the project's highest-priority acquisition. Until then, a downstream citation of this verse should prefer the doṣaghna/viṣaghna *claim* (which both readings support) over the specific fourth-fruit name.
+The fourth fruit first looked like a genuine textual divergence rather than a numbering one: Sharma's text (and so the project) reads *ketakī*, while GRETIL's Trikamji-based root text reads *tṛṇaśūnya*. Cakrapāṇidatta's *Āyurveda Dīpikā* settles it. In the Harinātha Viśārada edition of Caraka-with-commentary — on disk at `library/sa/ayurveda/caraka-cakrapani-harinatha.zip` — the root reads *tṛṇaśūnyaṃ*, and the commentary glosses the verse's fruit-names one by one:
+
+> nīpaṃ kadambakam, śatāhvaka-phalaṃ śarakā iti khyātam, pīlu auttarāpathikam, **tṛṇaśūnyam ketakī-phalam**, prācīnāmalakaṃ pānīyāmalakam.
+>
+> "nīpa is the kadamba; the śatāhva-fruit is known as *śarakā*; pīlu is the northern kind; **tṛṇaśūnya is the ketakī-fruit**; prācīnāmalaka is the water-āmalaka."\
+> — Cakrapāṇidatta, *Āyurveda Dīpikā* on the six-fruit verse (Devanagari per the Harinātha OCR, normalised to IAST)
+
+The two name one fruit. The critical text prints the original word, *tṛṇaśūnya*; Sharma prints the commentary's identification of it, *ketakī*. The divergence dissolves, and the *doṣaghna* / *viṣaghna* claim stands unchanged across all three editions.
+
+Two notes from the same page. The Harinātha edition numbers this verse **124** — a third numbering, against Sharma's 158 and GRETIL's 145–146 — which only sharpens the lesson that Caraka verse-numbers are edition-specific while the content is not. And Cakrapāṇi, glossing the adjacent pomegranate verse, quotes *Suśruta* by name (the pomegranate is twofold, sweet and sour; the sweet removes all three doṣas, the sour subdues vāta and kapha) — the Caraka–Suśruta concord attested inside the commentary itself.
 
 ## Consequence for downstream citations
 
@@ -72,7 +81,7 @@ This is the same discipline applied to Sū. 5.12 in [`sutrasthana-5-12.md`](./su
 
 ## What remains
 
-1. **Acquire Cakrapāṇidatta's *Āyurveda Dīpikā*** (Sharma/Dash 7-vol set, or a higher-resolution rescan of the 1922 Nirṇaya-Sāgara) to adjudicate the *ketakī* / *tṛṇaśūnya* variant and confirm the canonical numbering. Highest priority per [`translation-sources.md`](../translation-sources.md).
+1. **Cakrapāṇidatta's *Āyurveda Dīpikā* is on disk after all.** The Harinātha Viśārada edition (`library/sa/ayurveda/caraka-cakrapani-harinatha.zip`) carries the commentary, and its OCR is recoverable for targeted lookups — it adjudicated the *tṛṇaśūnya* / *ketakī* fruit above. The 1922 Nirṇaya-Sāgara scan rejected as unrecoverable is a *different* edition; the Harinātha scan is usable. The Sharma/Dash 7-volume printed set is still worth acquiring for clean, publication-grade commentary text, but verse-level commentary questions can now be answered from the Harinātha OCR — see [`translation-sources.md`](../translation-sources.md).
 2. **Extend the GRETIL cross-numbering** to the rest of the Sū. 27 fruit and vegetable catalogue (27.125–165) and fold the GRETIL numbers into [`../fruit-vegetable-warnings.md`](../fruit-vegetable-warnings.md) as a parallel column.
 3. **Note** that GRETIL does not cover Sū. 5 or Sū. 6, so the daily-routine verse (5.12) and the seasonal-regimen chapter (6, *Tasyāśitīya*) cannot be GRETIL-verified; those rest on Sharma plus the wisdomlib cross-check.
 

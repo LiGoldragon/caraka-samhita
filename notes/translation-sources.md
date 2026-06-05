@@ -42,7 +42,7 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 - Chowkhamba Sanskrit Series, 7 volumes. The scholarly gold standard for Caraka work in English.
 - **Why wanted:** includes Cakrapāṇidatta's *Āyurveda Dīpikā* commentary — the canonical traditional commentary that resolves grammatical anomalies in the received Sanskrit. Without this, the philological work in `philology/` cannot reach definitive conclusions for verses where received Sanskrit is ambiguous.
 - **Status:** not yet acquired. Anna's Archive has a partial (Śārīra-sthāna only, hash `037f1c66533e9a9701f4c8c2907bbda7`); the Sūtra-sthāna volume would have to be located separately. Available new from Vedic Books / Amazon.
-- **Priority:** **HIGH.** This is now the single most useful addition to the project library, since the alternative free-path Cakrapāṇi commentary edition (1922 Nirṇaya-Sāgara) was tested and rejected — see below.
+- **Priority:** **HIGH** for clean, publication-grade English-with-commentary text. The earlier rationale — that this was the *only* path to Cakrapāṇi, the free-path 1922 edition having been rejected — no longer holds: the Harinātha Viśārada Caraka-with-*Āyurveda-Dīpikā* is on disk with recoverable OCR and answers verse-level commentary questions (it settled the Sū. 27 *tṛṇaśūnya*/*ketakī* fruit; see `philology/sutrasthana-27-fruit-verses-gretil.md`). The Sharma/Dash set remains the goal for a clean full commentary text, not the only source for it.
 
 ### Jādavji Trikamji Āchārya critical Sanskrit edition
 
@@ -70,7 +70,14 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 - **Mirror on GitHub:** [INDOLOGY/GRETIL-mirror](https://github.com/INDOLOGY/GRETIL-mirror). Raw file: `gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/7_ayur/caraka_u.htm`.
 - **Coverage:** **partial.** Oliver Hellwig's GRETIL contribution covers only selected *Sūtrasthāna* chapters — specifically 1, 12, 26, 27, 28. **Chapter 5 is not present.**
 - **Meaning for verse-level philology:** GRETIL is authoritative Unicode-encoded Sanskrit for the chapters it covers but cannot verify any verse outside those chapters. A snapshot is at [`../tmp/caraka-gretil.htm`](../tmp/caraka-gretil.htm) [not yet committed to this repo] for reference.
-- **Fruit-chapter verification (Sū. 27):** the fruit verses cited downstream have been checked against GRETIL — content verified authentic, Sharma 2014 verse-numbering divergent (non-constant offset), plus one variant reading (*ketakī* / *tṛṇaśūnya*). Full mapping in [`philology/sutrasthana-27-fruit-verses-gretil.md`](./philology/sutrasthana-27-fruit-verses-gretil.md).
+- **Fruit-chapter verification (Sū. 27):** the fruit verses cited downstream have been checked against GRETIL — content verified authentic, Sharma 2014 verse-numbering divergent (non-constant offset). The one apparent variant (*ketakī* / *tṛṇaśūnya*) is resolved: Cakrapāṇi glosses *tṛṇaśūnya* as the *ketakī*-fruit — one fruit, two names. Full mapping in [`philology/sutrasthana-27-fruit-verses-gretil.md`](./philology/sutrasthana-27-fruit-verses-gretil.md).
+
+### Harinātha Viśārada — Caraka with Cakrapāṇi's *Āyurveda Dīpikā* (on disk)
+
+- **On disk:** `library/sa/ayurveda/caraka-cakrapani-harinatha.zip` (IA per-page OCR bundle; MD5 `efa8e4b523318359e19e8a3baf387d83`).
+- **What it is:** the *Caraka Saṃhitā* with Cakrapāṇidatta's *Āyurveda Dīpikā* — the canonical traditional commentary — edited by Harinātha Viśārada. Devanagari per-page OCR.
+- **Quality:** mixed across the volume, but recoverable for targeted verse-level lookups. The Sūtrasthāna 26–27 pages (the *viruddha* doctrine and the fruit *varga*) read cleanly enough to quote both root text and commentary.
+- **Finding:** this is the commentary the project had recorded as unacquired. It settled the Sū. 27 six-fruit *tṛṇaśūnya*/*ketakī* question (Cakrapāṇi glosses *tṛṇaśūnya* as *ketakī-phala*) and shows that verse numbered 124 — a third edition-numbering against Sharma's 158 and GRETIL's 145–146. See [`philology/sutrasthana-27-fruit-verses-gretil.md`](./philology/sutrasthana-27-fruit-verses-gretil.md).
 
 ### wisdomlib.org — Charaka Samhita (English translation)
 
@@ -92,7 +99,7 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 
 ## Immediate research priorities
 
-1. **Acquire the Sharma/Dash 7-volume set** (Cakrapāṇi-commentary-based edition) or a higher-resolution rescan of the 1922 Nirṇaya-Sāgara — the free-path 1922 PDF was tested and is unrecoverable, see "Editions tested and rejected" above.
+1. **Mine the Harinātha Cakrapāṇi OCR already on disk** for verse-level commentary questions — it is recoverable for targeted lookups and already settled the Sū. 27 *tṛṇaśūnya*/*ketakī* fruit. The Sharma/Dash 7-volume set remains the goal for clean publication-grade commentary text, but it is no longer the only path to Cakrapāṇi; the 1922 Nirṇaya-Sāgara rejection was specific to that low-resolution scan.
 2. Resolve the **Sūtrasthāna 5.12 *saindhavān*** question using whichever of the above becomes available first. See [`philology/sutrasthana-5-12.md`](./philology/sutrasthana-5-12.md).
 3. Extend the same verification discipline to any other verse we plan to quote authoritatively in a downstream article.
 
