@@ -70,6 +70,7 @@ What editions of the *Caraka Saṃhitā* exist, which we have, which we don't, w
 - **Mirror on GitHub:** [INDOLOGY/GRETIL-mirror](https://github.com/INDOLOGY/GRETIL-mirror). Raw file: `gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/7_ayur/caraka_u.htm`.
 - **Coverage:** **partial.** Oliver Hellwig's GRETIL contribution covers only selected *Sūtrasthāna* chapters — specifically 1, 12, 26, 27, 28. **Chapter 5 is not present.**
 - **Meaning for verse-level philology:** GRETIL is authoritative Unicode-encoded Sanskrit for the chapters it covers but cannot verify any verse outside those chapters. A snapshot is at [`../tmp/caraka-gretil.htm`](../tmp/caraka-gretil.htm) [not yet committed to this repo] for reference.
+- **Fruit-chapter verification (Sū. 27):** the fruit verses cited downstream have been checked against GRETIL — content verified authentic, Sharma 2014 verse-numbering divergent (non-constant offset), plus one variant reading (*ketakī* / *tṛṇaśūnya*). Full mapping in [`philology/sutrasthana-27-fruit-verses-gretil.md`](./philology/sutrasthana-27-fruit-verses-gretil.md).
 
 ### wisdomlib.org — Charaka Samhita (English translation)
 
