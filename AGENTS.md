@@ -4,12 +4,12 @@ This file is read by any AI coding/writing agent that recognizes the `AGENTS.md`
 
 ## The Project
 
-This repository holds the project's working materials for the *Caraka Saṃhitā* — per-page OCR, curated digests by *sthāna*, thematic extractions, philological notes, and translation-provenance tracking. The goal is a repository of verified Caraka textual material that downstream articles (primarily in [`~/git/TheBookOfSol/`](../TheBookOfSol/)) can cite confidently.
+This repository holds the project's working materials for the *Caraka Saṃhitā* — per-page OCR, curated digests by *sthāna*, thematic extractions, philological notes, and translation-provenance tracking. The goal is a repository of verified Caraka textual material that downstream articles (primarily in the sibling [TheBookOfSol](../TheBookOfSol/) repository) can cite confidently.
 
 ## Related repositories
 
-- **`~/primary/repos/library/`** — the standalone scholarly library. Book binaries (PDF, EPUB) of printed editions of Caraka live under `~/primary/repos/library/en/caraka/` or `~/primary/repos/library/sa/caraka/`. This repository does **not** duplicate those binaries; it only contains working extractions.
-- **`~/git/TheBookOfSol/`** — where Caraka material is applied to arguments about diet, health, and chloride toxicology. When writing for that repository, cite the verified Caraka material here, not raw translations.
+- **Standalone scholarly library** — book binaries (PDF, EPUB) of printed editions of Caraka belong in the library repository under `en/caraka/` or `sa/caraka/`. This repository does **not** duplicate those binaries; it only contains working extractions.
+- **[TheBookOfSol](../TheBookOfSol/)** — where Caraka material is applied to arguments about diet, health, and chloride toxicology. When writing for that repository, cite the verified Caraka material here, not raw translations.
 
 ## Working conventions
 
@@ -19,7 +19,7 @@ Each edition of the Caraka Saṃhitā gets its own top-level directory named for
 
 When a new edition is acquired (e.g., Sharma-Dash 1976, Trikamji critical Sanskrit, Angot 2011 French), it gets a sibling directory and its own `CONVENTIONS.md` if its source/format differs.
 
-The intermediate per-page OCR text that produced `sharma-2014/` lived in `pages/*.txt` and is preserved in git history; the PDF-page PNG scans lived in `.ocr_pages/` (gitignored, regeneratable from the source PDF in `~/primary/repos/library/en/caraka/` via `pdftoppm`). Manual corrections applied during that OCR pass are logged in [`notes/ocr-corrections.md`](./notes/ocr-corrections.md) for audit.
+The intermediate per-page OCR text that produced `sharma-2014/` lived in `pages/*.txt` and is preserved in git history; the PDF-page PNG scans lived in `.ocr_pages/` (gitignored, regeneratable from the source PDF in the library repository's `en/caraka/` area via `pdftoppm`). Manual corrections applied during that OCR pass are logged in [`notes/ocr-corrections.md`](./notes/ocr-corrections.md) for audit.
 
 Do **not** smooth or paraphrase the published English. Fix obvious typos only (the Sharma edition has a few). For any non-typo edit, record it in `notes/ocr-corrections.md` with scan evidence.
 
@@ -85,4 +85,4 @@ Do not use `git commit` / `git push` directly.
 
 ## When in doubt
 
-If a convention is not explicit here, look at recent commits (`jj log --limit 20`) or at the conventions in the companion repositories ([`~/git/TheBookOfSol/AGENTS.md`](../TheBookOfSol/AGENTS.md), [`~/primary/repos/library/CLAUDE.md`](../library/CLAUDE.md)). Prefer to preserve existing structure rather than introduce novelty without reason.
+If a convention is not explicit here, look at recent commits (`jj log --limit 20`) or at the conventions in the companion repositories ([`TheBookOfSol/AGENTS.md`](../TheBookOfSol/AGENTS.md), the library repository's `CLAUDE.md`). Prefer to preserve existing structure rather than introduce novelty without reason.
