@@ -86,3 +86,10 @@ Do not use `git commit` / `git push` directly.
 ## When in doubt
 
 If a convention is not explicit here, look at recent commits (`jj log --limit 20`) or at the conventions in the companion repositories ([`TheBookOfSol/AGENTS.md`](../TheBookOfSol/AGENTS.md), the library repository's `CLAUDE.md`). Prefer to preserve existing structure rather than introduce novelty without reason.
+
+## Protos estate status
+
+Protos estate scope: out of scope
+Stack: not applicable
+Role: content
+This is scope metadata, not a stack.
